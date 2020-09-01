@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(void) {
-  char *name = readline("Enter temperature in Celsius: ");
+  char *name = readline("Enter temperature in celsius: ");
   double a = atof(name);
   double b = b*1.8+32;
   
